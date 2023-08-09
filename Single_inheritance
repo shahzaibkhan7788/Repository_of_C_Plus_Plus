@@ -1,0 +1,27 @@
+#include<stdio.h>
+int a = 19;
+void my_func();
+int main()
+{
+	int i,j,A[10],B[10];
+	int n=9;
+	printf("Enter the enteries of matrix 1:");
+	for(int i=0;i<10;i++)
+	{
+			scanf("%d",&A[i]);
+	}
+	for(int i=0;i<10;i++)
+	{
+	   printf("%d\t",A[i]);
+	}
+	printf("Reverse order of matrix\n");
+	for(int i=9;i>=0;i--)
+	{
+	   B[i]=A[9-i];
+	}
+	printf("\n");
+	for(int i=0;i<10;i++)
+	{
+		printf("%d\t",B[i]);
+	}
+}
