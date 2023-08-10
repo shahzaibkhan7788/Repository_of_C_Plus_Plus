@@ -24,4 +24,9 @@ int main()
 	{
 		printf("%d\t",B[i]);
 	}
+
+//I want to add another branch ...so that i easily merge it....
+ ///potato..
+//tomato....
+//water melon
 }
